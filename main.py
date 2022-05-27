@@ -17,7 +17,7 @@ db = SQLAlchemy(app)
 deck = deck_bd_card_info()
 answer = ""
 for x in card_list:
-    i = f"<h1>{x}:</h1>\n<h3>{deck[x]}</h3>\n\n"
+    i = f"<h1>{x}:</h1>\n<h3>{deck[x]}.</h3>\n\n"
     answer = answer + i
 
 
